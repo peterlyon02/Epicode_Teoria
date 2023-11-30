@@ -1,0 +1,16 @@
+.example::before{
+    content: "Prima del div";
+    color: green;
+}
+
+
+.example::after{
+    content: "Dopo il div";
+    color: red;
+}
+
+li::selection{
+    background-color: yellow;
+    color: black;
+}
+
