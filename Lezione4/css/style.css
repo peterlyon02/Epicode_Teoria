@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.youtube-home{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar{
+    width: 250px;
+    background-color: rgb(40, 57, 87);
+    color: white;
+    padding: 30px;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#tabSearch{
+    height: 30px;
+}
+
+.video-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 100vh;   
+    flex-wrap: wrap;
+}
+
+.video-box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.thumbnail{
+    height: 250px;
+    background-color: aliceblue;
+}
+
+.video-info{
+    color: white;
+    line-height: 50px;
+}

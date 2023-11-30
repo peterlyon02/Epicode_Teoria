@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-direction</title>
+
+    <style>
+       
+        .flex-container{
+            /* Questa è la regola da fornire al parent per poter applicare tutte le altre regole di flexbox */
+            display: flex;
+            border: 2px solid black;
+            /* flex-direction: row; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            flex-direction: row-reverse;
+        }
+
+
+        .flex-item{
+            border: 1px solid black;
+            padding: 20px;
+            margin: 5px;
+            background-color: aqua;
+            width: 30px;
+            height: auto;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Flex-direction</h1>
+
+    <!-- Questo è il parent di tutti i div quindi sarà questo ddiv a prendere la regola flex -->
+    <div class="flex-container">
+
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+
+    </div>
+    
+</body>
+</html>
