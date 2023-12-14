@@ -6,6 +6,7 @@ for(let i = 0; i < 5; i++){
 
 /**
  * i++ ==> Operatore di Post-incremento: la variabile viene prima letta poi aggiornata
+ *  i = i + 1;
  * 
  * for( inizializzazione; condizione; aggiornamento){
  *  blocco di codice
