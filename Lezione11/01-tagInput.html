@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Campi Input</h1>
+
+    <form action="" method="get" id="mioForm">
+
+        <label for="nome">Nome: </label><br>
+        <input type="text" placeholder="Inserisci il tuo nome" value="" id="nome" name="nome"> <br>
+
+        <label for="cognome">Cognome: </label><br>
+        <input type="text" id="cognome" name="cognome"> <br>
+
+        <label for="telefono">Telefono: </label><br>
+        <input type="tel" name="telefono" id="telefono"> <br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"> <br>
+
+        <label for="eta">Età: </label> <br>
+        <input type="number" id="eta" name="eta"> <br>
+
+        <label for="genere">Genere: </label> <br>
+        <input type="radio" value="M"> <label for="">M</label>
+        <input type="radio" value="F"> <label for="">F</label>
+        <input type="radio" value="A"> <label for="">A</label>
+        <input type="radio" value="Non specificare"> <label for="">Non specificare</label>
+
+        <br>
+        <input type="checkbox" value="accetta">
+        <label for="privacy">Accetta normativa Privacy</label>
+
+        <br>
+
+        <input type="button" value="Invia" id="btnInvia">
+        <!-- <button type="button" id="btnInvia">Invia</button> -->
+
+        <input type="submit" value="Registrati" id="btnSubmit">
+    </form>
+    <script src="./js/script01.js"></script>
+</body>
+
+</html>
