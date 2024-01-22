@@ -7,8 +7,8 @@ elNome.addEventListener("keypress", function(event){
     // console.log(elNome.value);
     // console.log(event);
     if(event.code == "Enter"){
-        demo.innerHTML = "Ciao " + elNome.value;
-        // btn.click();
+        // demo.innerHTML = "Ciao " + elNome.value;
+        btn.click();
     }
 
 });

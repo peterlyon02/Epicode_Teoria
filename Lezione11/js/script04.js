@@ -1,6 +1,7 @@
 let btn = document.querySelector("#btn");
 let demo = document.querySelector("#demo");
 let elUsername = document.querySelector("#username");
+console.log(elUsername);
 
 
 function recuperaUsername(){

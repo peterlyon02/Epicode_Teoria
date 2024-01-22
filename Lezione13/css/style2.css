@@ -1,0 +1,48 @@
+.hero img{
+    
+    width: 200px;
+    height: auto;
+}
+
+/* seleziono solo quell'elemento che ha entrambe le classi */
+.hero.bigger{
+    background-color: aquamarine;
+}
+
+/* > figli diretti */
+.hero > p{
+    color: red;
+}
+
+/* + siblings di un elemento */
+.hero + p{
+    color: blue;
+}
+
+.hero img + p{
+    color: pink;
+}
+
+.bigger{
+    font-size: larger;
+}
+
+
+/* ~ prendo gli elementi siblings successivi ad un dato elemento */
+.bigger span ~ p{
+    color: cyan;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: blueviolet;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formContatto input[type="email"]{
+    border-color: red;
+}
+
+.formContatto input[type="button"]{
+    background-color: bisque;
+}

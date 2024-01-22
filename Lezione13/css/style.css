@@ -1,0 +1,60 @@
+/* Selector by tag name */
+/* h1{
+    display: inline;
+}
+
+p{
+    display: inline;
+}
+ */
+
+ a{
+    display: block;
+ }
+
+h2{
+    font-size: smaller;
+}
+
+
+.dimH1{
+    width: 300px;
+    border: 2px solid black;
+}
+/* by id #
+#first{
+    width: 200px;
+    height: auto;
+    padding: 40px;
+    background-color: aqua;
+}
+
+/* by class . */
+/* .wrapper{
+    width: 150px;
+    height: 150px;
+    background-color: chartreuse;
+} */
+
+/* .list{
+    margin-top: 30px;
+    background-color: brown;
+} */
+/* 
+.listItem{
+    color: white;
+}  */
+
+#first .wrapper ul.list li.listItem{
+    /* background-color: aquamarine; */
+    color: red;
+}
+
+.listItem{
+    /* background-color: aquamarine; */
+    color: orange;
+}
+
+.txtViolet{
+    color: rgb(105, 3, 105);
+}
