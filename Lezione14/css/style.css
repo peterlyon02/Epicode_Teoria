@@ -1,0 +1,39 @@
+.flex-container{
+    height: 100vh;
+    display: flex;
+    /* flex-direction stabilisce l'asse principale */
+    flex-direction: row;
+    justify-content: space-between;
+
+    /* align-items lavora sull'asse trasversale ( perpendicolare rispetto al principale ) */
+    align-items: flex-start;
+
+    flex-wrap: wrap;
+
+    /* align-content: flex-end; */
+
+    /* gap: 30px; */
+}
+
+.dimDiv{
+    width: 150px;
+    /* max-width: 150px; */
+    height: 200px;
+    border: 1px solid black;
+}
+
+.fGrow1{
+    flex-grow: 1;
+}
+
+.fGrow2{
+    flex-shrink: 2;
+}
+
+.fGrow3{
+    flex-grow: 3;
+}
+
+.bgDark{
+    background-color: rgba(97, 95, 95, 0.402);
+}
