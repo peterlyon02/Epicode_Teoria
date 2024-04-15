@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Wrap</title>
+
+    <style>
+
+        .flex-container{
+            display: flex;
+            border: 2px solid black;
+            margin-bottom: 30px;
+        }
+
+        .flex-item{
+            width: 30px;
+            /* flex: 1; */
+            height: auto;
+            padding: 20px;
+            border: 1px solid black;
+            margin: 5px;
+        }
+
+        /* No-wrap è di default */
+        .flex-nowrap{
+            flex-wrap: nowrap;
+        }
+
+        .flex-wrap{
+            flex-wrap: wrap;
+        }
+
+        .flex-wrap-reverse{
+            flex-wrap: wrap-reverse;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <h1>Flex-wrap</h1>
+
+
+    <div class="flex-container flex-nowrap">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div class="flex-item">6</div>
+        <div class="flex-item">7</div>
+        <div class="flex-item">8</div>
+    </div>
+
+
+    <div class="flex-container flex-wrap">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div class="flex-item">6</div>
+        <div class="flex-item">7</div>
+        <div class="flex-item">8</div>
+    </div>
+
+    <div class="flex-container flex-wrap-reverse">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div class="flex-item">6</div>
+        <div class="flex-item">7</div>
+        <div class="flex-item">8</div>
+    </div>
+
+</body>
+</html>
